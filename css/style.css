@@ -1,11 +1,27 @@
 body {
     font-family: 'Mont', sans-serif;
-    font-weight: 400;
+    font-size: 14px;
     color: #343434;
 }
+
+.container-left {
+    padding-left: 5rem;
+}
+
+.red-color {
+    color: #961616;
+}
+
+/* -------------------------------------
+Section header - navigation */
+
 .nav {
     background-color: #E7E7E7;
     padding: 13px 0;
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .nav-wrp {
@@ -13,6 +29,7 @@ body {
     gap: 25px;
     align-items: center;
 }
+
 .nav-btn-platforma {
     display: block;
     width: 24px;
@@ -83,4 +100,145 @@ body {
 
 .nav-btn-share-icon {
     fill: #343434;
+}
+
+/* -------------------------------------
+Section hero */
+
+.hero {
+    padding-top: 1.4rem;
+    padding-bottom: 3.5rem;
+}
+
+.hero-portrait-img {
+    padding: 3.5rem 0;
+}
+
+.hero-name-thin {
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+
+.hero-name-bold {
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 100%;
+    text-transform: uppercase;
+    margin-bottom: 0.6rem;
+}
+
+.text-main-container-right {
+    text-align: right;
+}
+
+.text-main-bold {
+    font-weight: 800;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+}
+
+.text-main-bold-right{
+    display: inline-block;
+    width: 130px;
+    text-align: right;
+}
+
+.text-main-thin{
+    line-height: 150%;
+}
+
+/* -------------------------------------
+Introduction */
+
+.introduction .text-mrgn {
+    margin-top: 2.45rem;
+}
+
+/* -------------------------------------
+Blockquote */
+
+.blockquote {
+    margin-top: 1.4rem;
+}
+
+.blockquote-quote {
+    position: relative;
+}
+
+.blockquote-big-part {    
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 0;
+}
+
+.blockquote-small-part {
+    fill: #E7E7E7;
+    position: absolute;
+    top: -2.6rem;
+    left: 2rem;
+}
+
+.blockquote-text {
+    font-size: 24px;
+    line-height: 150%;
+
+    margin-top: 2.45rem;
+}
+
+/* -------------------------------------
+Chapters */
+
+.chapter-wrp {
+    position: relative;
+    margin-top: 3.5rem;
+}
+
+.chapter-number {
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 150%;
+
+    position: absolute;
+    top: 0.35rem;
+    left: -1.4rem;
+}
+
+.chapter-title {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 125%;
+
+    hyphens: auto;
+    overflow-wrap: break-word;
+    word-break: normal;
+}
+
+.chapter-subtitle {
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 125%;
+
+    margin-top: 1.75rem;
+    margin-bottom: 0.35rem;
+}
+
+.chapter-two .chapter-title,
+.chapter-three .chapter-title,
+.chapter-four .chapter-title {
+    padding-bottom: 1.75rem;
+}
+
+.text-mrgn {
+    margin-bottom: 1.4rem;
+}
+
+.footer {
+    margin-top: 3.5rem;
+    margin-bottom: 2.45rem;
+}
+
+.mrgn-after-blockquote {
+    margin-top: 2.45rem;
 }
