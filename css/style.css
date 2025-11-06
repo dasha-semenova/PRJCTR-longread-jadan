@@ -16,7 +16,7 @@ body {
 Section header - navigation */
 
 .nav {
-    background-color: #E7E7E7;
+    background-color: #f5f5f5;
     padding: 13px 0;
 
     position: sticky;
@@ -26,8 +26,8 @@ Section header - navigation */
 
 .nav-wrp {
     display: flex;
-    gap: 25px;
     align-items: center;
+    justify-content: space-between;
 }
 
 .nav-btn-platforma {
@@ -35,6 +35,7 @@ Section header - navigation */
     width: 24px;
     height: 24px;
     padding: 1px;
+    cursor: pointer;
 }
 
 .nav-btn-platforma-icon {
@@ -43,16 +44,16 @@ Section header - navigation */
 }
 
 .nav-btn-start-end-wrp {
-    padding: 3px 0;
-    max-width: 68px;
-    min-width: 68px;
+    padding: 6px 0;
+    max-width: 72px;
+    min-width: 72px;
 }
 
 .nav-btn-start-end {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2px 8px;
+    padding: 5px 8px;
     background-color: #343434;
     border: none;
     border-radius: 135px;
@@ -62,7 +63,7 @@ Section header - navigation */
 .nav-btn-start-end-text {
     font-weight: 800;
     font-size: 12px;
-    color: #e7e7e7;
+    color: #f5f5f5;
     width: 100%;
 }
 
@@ -72,15 +73,14 @@ Section header - navigation */
     align-items: center;
 }
 
-.nav-btn-next-prev-wrp {
-    display: flex;
-    gap: 0;
-}
 .nav-btn-next-prev {
-    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    padding: 0;
     border: none;
-    width: 24px;
-    height: 24px;
     background-color: transparent;
 }
 
@@ -93,9 +93,10 @@ Section header - navigation */
 }
 
 .nav-btn-share {
-    padding: 4px 1px 1px 6px;
+    padding: 5px 0px 5px 5px;
     background-color: transparent;
     border: none;
+    cursor: pointer;
 }
 
 .nav-btn-share-icon {
@@ -174,7 +175,7 @@ Blockquote */
 }
 
 .blockquote-small-part {
-    fill: #E7E7E7;
+    fill: #f5f5f5;
     position: absolute;
     top: -2.6rem;
     left: 2rem;
@@ -235,8 +236,10 @@ Chapters */
 }
 
 .footer {
-    margin-top: 3.5rem;
-    margin-bottom: 2.45rem;
+    padding-top: 3.5rem;
+    padding-bottom: 2.45rem;
+    overflow-y: hidden;
+    position: relative;
 }
 
 .mrgn-after-blockquote {

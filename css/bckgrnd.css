@@ -1,0 +1,281 @@
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
+.bckgrnd-wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+
+    pointer-events: none;
+    z-index: -1;
+}
+
+.bckgrnd-anchor{
+    max-width: 320px;
+    margin: 0 auto;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.bckgrnd {
+    position: absolute;
+    fill: #ececec;
+}
+
+.bckgrnd-icon-lines-four {
+    width: 25px;
+    height: 30px;
+    top: 7%;
+    left: 17%;
+}
+
+.bckgrnd-icon-arrow {
+    width: 20px;
+    height: 20px;
+    top: 8%;
+    left: 92%;
+}
+
+.bckgrnd-icon-circle-m {
+    width: 30px;
+    height: 45px;
+    top: 9%;
+    left: 10%;
+}
+
+.bckgrnd-icon-letters-m-lines {
+    width: 30px;
+    height: 50px;
+    top: 13%;
+    left: 16%;
+}
+
+.bckgrnd-icon-hand {
+    width: 30px;
+    height: 120px;
+    rotate: 45deg;
+    top: 15.9%;
+    left: 10px;
+}
+
+.bckgrnd-icon-circle-m-two {
+    width: 35px;
+    height: 45px;
+    top: 24.5%;
+    left: 84%;
+}
+
+.bckgrnd-icon-half-circle {
+    width: 30px;
+    height: 40px;
+    top: 26.5%;
+    left:9%;
+}
+
+.bckgrnd-icon-rhombus {
+    width: 20px;
+    height: 20px;
+    top: 27.2%;
+    left: 89%;
+}
+
+.bckgrnd-icon-arrow-two {
+    width: 20px;
+    height: 20px;
+    top: 30.3%;
+    left: 89%;
+}
+
+.bckgrnd-icon-lines-arrow {
+    width: 25px;
+    height: 25px;
+    top: 31.4%;
+    left: 90%;
+}
+
+.bckgrnd-icon-lines-four-two {
+    width: 25px;
+    height: 30px;
+    top: 32.5%;
+    left: 14%;
+}
+
+.bckgrnd-icon-letters-t {
+    width: 40px;
+    height: 43px;
+    top: 35.3%;
+    left: 87.5%;
+}
+
+.bckgrnd-icon-eye {
+    width: 25px;
+    height: 25px;
+    top: 38.8%;
+    left: 8%;
+}
+
+.bckgrnd-icon-lines-four-three {
+    width: 25px;
+    height: 40px;
+    top: 40%;
+    left: 88%;
+}
+
+.bckgrnd-icon-lines-four-left {
+    width: 25px;
+    height: 30px;
+    top: 43.7%;
+    left: 18%;
+}
+
+.bckgrnd-icon-arrow-three{
+    width: 20px;
+    height: 20px;
+    top: 49%;
+    left: 6%;
+}
+
+.bckgrnd-icon-letters-n {
+    width: 23px;
+    height: 40px;
+    top: 56%;
+    left: 8%;
+}
+
+.bckgrnd-icon-rhombus-two {
+    width: 20px;
+    height: 20px;
+    top: 58.5%;
+    left: 19%;
+}
+
+.bckgrnd-icon-ear {
+    width: 30px;
+    height: 45px;
+    top: 59%;
+    left: 89%;
+}
+
+.bckgrnd-icon-lines-four-four {
+    width: 25px;
+    height: 40px;
+    top: 62%;
+    left: 11%;
+}
+
+.bckgrnd-icon-letters-i-am {
+    width: 20px;
+    height: 45px;
+    top: 66.4%;
+    left: 8%;
+}
+
+.bckgrnd-icon-glasses{
+    height: 450px;
+    top: 68.5%;
+    left: -30%;
+}
+
+.bckgrnd-icon-arrow-four{
+    width: 20px;
+    height: 20px;
+    top: 76.3%;
+    left: 20%;
+}
+
+.bckgrnd-icon-lines-arrow-two{
+    width: 25px;
+    height: 25px;
+    top: 77.9%;
+    left: 8%;
+}
+
+.bckgrnd-icon-letters-m-solid {
+    width: 35px;
+    height: 50px;
+    top: 80.8%;
+    left: 87%;
+}
+
+.bckgrnd-icon-text-vlasnoi {
+    width: 70px;
+    height: 235px;
+    top: 81%;
+    left: -7%;
+}
+
+.bckgrnd-icon-text-rika {
+    width: 50px;
+    height: 465px;
+    top: 82.8%;
+    left: 0%;
+}
+
+.bckgrnd-icon-circle-m-three {
+    width: 30px;
+    height: 45px;
+    top: 87.8%;
+    left: 88%;
+}
+
+.bckgrnd-icon-rhombus-three {
+    width: 25px;
+    height: 25px;
+    top: 89.3%;
+    left: 65%;
+}
+
+.bckgrnd-icon-circle-m-four {
+    width: 30px;
+    height: 45px;
+    top: 92.6%;
+    left: 87%;
+}
+
+.bckgrnd-icon-lines-four-five {
+    width: 25px;
+    height: 40px;
+    top: 93.2%;
+    left: 3%;
+}
+
+.bckgrnd-icon-letters-a {
+    width: 30px;
+    height: 45px;
+    top: 95.8%;
+    left: 18%;
+}
+
+.bckgrnd-text-bajano{
+    top: 28.4%; 
+    left: 0;
+
+    opacity: 0.5;
+}
+
+.bckgrnd-tree {
+    position: absolute;
+    z-index: -1;
+    pointer-events: none;
+
+    bottom: 0%;
+    left: 22%;
+
+    opacity: 0.3;
+}
+
+.bckgrnd-icon-letters-ydachi {
+    position: absolute;
+    z-index: -1;
+    pointer-events: none;
+
+    width: 145px;
+    height: 125px;
+    bottom: -0.4%;
+    left: 55%;
+}

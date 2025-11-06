@@ -1,0 +1,130 @@
+@media screen and (min-width:1400px) {
+    .nav {
+        background-color: #ececec;
+        padding: 18px 0;
+    }
+
+    .nav-btn-wrp {
+        gap: 15px;
+    }
+
+    .container {
+        position: relative;
+    }
+
+    .text-main-bold {
+        font-weight: 950;
+        font-size: 24px;
+        margin-bottom: 0;
+    }
+
+    .text-main-container-right {
+        text-align: left;
+    }
+
+    .text-main-bold-right {
+        display: inline-block;
+        width: auto;
+        text-align: left;
+        margin-bottom: 0;
+    }
+
+    .hero-portrait-img {
+        padding: 0;
+        margin-right: 91px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 350px;
+    }
+      
+    .text-main-thin {
+        font-size: 24px;
+    }
+
+    .hero {
+        padding-bottom: 7rem;
+    }
+
+    .hero-name-thin{
+        font-size: 178px;
+        margin-top: 10.85rem;
+    }
+
+    .hero-name-bold{
+        font-weight: 950;
+        font-size: 178px;
+    }
+
+    .introduction .text-mrgn {
+        margin-top: 7rem;
+    }
+
+    .chapter-number {
+        font-weight: 900;
+        font-size: 18px;
+
+        top: 0.45rem;
+        left: -2.1rem;
+    }
+
+    .chapter-title {
+        font-size: 65px;
+        margin-top: 10.5rem;
+    }
+
+    .chapter-subtitle {
+        font-size: 34px;
+        line-height: 150%;
+
+        margin-top: 5.25rem;
+        margin-bottom: 0.35rem;        
+    }
+
+    .blockquote-big-part {
+        font-weight: 900;
+        font-size: 85px;
+    }
+
+    .blockquote-small-part {
+        fill: #ececec;
+        position: absolute;
+        top: -3.6rem;
+        left: 3rem;
+    }
+
+    .container-left {
+        padding-left: 29rem;
+    }
+
+    .blockquote-text {
+        font-size: 45px;
+        margin-top: 3.5rem;
+    }
+
+    .mrgn-after-blockquote {
+        margin-top: 7rem;
+    }
+
+    .footer {
+        padding-top: 7rem;
+        padding-bottom: 7rem;
+    }
+
+
+
+/* background svg, img */
+
+    .bckgrnd-anchor {
+        max-width: 1400px;
+    }
+
+    .bckgrnd-icon-text-vlasnoi {
+        top: 83%;
+        left: 4%;
+    }
+
+    .bckgrnd-icon-letters-ydachi {
+        left: 80%;
+    }
+}
