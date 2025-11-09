@@ -24,6 +24,10 @@ Section header - navigation */
     z-index: 1000;
 }
 
+.nav-section {
+    scroll-margin-top: 65px;
+}
+
 .nav-wrp {
     display: flex;
     align-items: center;
@@ -84,8 +88,25 @@ Section header - navigation */
     background-color: transparent;
 }
 
+.nav-btn-next-prev:disabled,
+.nav-btn-start-end:disabled {
+    cursor: not-allowed;
+}
+
+.nav-btn-start-end:disabled {
+    background-color: #e0e0e0;
+}
+
+.nav-btn-start-end:disabled .nav-btn-start-end-text{
+    color: #f5f5f5;
+}
+
 .nav-btn-icon {
     fill: #343434;
+}
+
+.nav-btn-next-prev:disabled .nav-btn-icon {
+    fill: #e0e0e0;
 }
 
 .rotate {
@@ -153,7 +174,7 @@ Section hero */
 /* -------------------------------------
 Introduction */
 
-.introduction .text-mrgn {
+.intro .text-mrgn {
     margin-top: 2.45rem;
 }
 

@@ -187,13 +187,13 @@
               </button>
             </div>
 
-            <button type="button" class="nav-btn-next-prev">
+            <button type="button" class="nav-btn-next-prev" id="prevSection">
               <svg width="24" height="24" class="nav-btn-icon">
                 <use href="./images/sprite.svg#icon-button-next-prev"></use>
               </svg>
             </button>
 
-            <button type="button" class="nav-btn-next-prev">
+            <button type="button" class="nav-btn-next-prev" id="nextSection">
               <svg width="24" height="24" class="nav-btn-icon rotate">
                 <use href="./images/sprite.svg#icon-button-next-prev"></use>
               </svg>
@@ -225,7 +225,7 @@
 
     <main>
       <!-- Section hero -->
-      <section class="hero">
+      <section class="hero nav-section" id="section-hero">
         <div class="container">
           <p class="text-main-bold">Platfor.ma | IST Publishing</p>
           <img
@@ -251,7 +251,7 @@
       </section>
 
       <!-- Section Introduction -->
-      <section class="introduction">
+      <section class="intro nav-section" id="section-intro">
         <div class="container">
           <div class="container-left">
             <p class="text-main-thin">
@@ -275,8 +275,9 @@
           </div>
         </div>
       </section>
+
       <!-- Section Chapter-one -->
-      <section class="chapter-one">
+      <section class="chapter-one nav-section" id="section-one">
         <div class="container">
           <div class="container-left">
             <div class="chapter-wrp">
@@ -324,7 +325,7 @@
       </div>
 
       <!-- Section Chapter-two -->
-      <section class="chapter-two">
+      <section class="chapter-two nav-section" id="section-two">
         <div class="container">
           <div class="container-left">
             <div class="chapter-wrp">
@@ -349,7 +350,7 @@
       </section>
 
       <!-- Section Chapter-three -->
-      <section class="chapter-three">
+      <section class="chapter-three nav-section" id="section-three">
         <div class="container">
           <div class="container-left">
             <div class="chapter-wrp">
@@ -384,7 +385,7 @@
       </div>
 
       <!-- Section Chapter-four -->
-      <section class="chapter-four">
+      <section class="chapter-four nav-section" id="section-four">
         <div class="container">
           <div class="container-left">
             <div class="chapter-wrp">
@@ -565,7 +566,7 @@
     </main>
 
     <!-- Section footer -->
-    <footer class="footer">
+    <footer class="footer nav-section" id="section-footer">
       <div class="container">
         <div class="container-left">
           <p class="text-main-bold text-mrgn">
@@ -603,5 +604,7 @@
         class="bckgrnd bckgrnd-tree"
       />
     </footer>
+
+    <script src="./js/main.js" type="module"></script>
   </body>
 </html>
