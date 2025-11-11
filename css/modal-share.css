@@ -1,0 +1,87 @@
+/* Задний фон модалки */
+.share-modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    z-index: 1000;
+}
+
+.share-modal.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* Контейнер с анимацией масштаба */
+.share-modal-content {
+    background: #fff;
+    border-radius: 5px;
+    padding: 1.4rem 1.75rem;
+    width: 300px;
+    position: relative;
+    text-align: center;
+    transform: scale(0.8);
+    transition: transform 0.3s ease;
+}
+
+.share-modal.active .share-modal-content {
+    transform: scale(1);
+}
+
+/* Список иконок */
+.share-modal-list {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.share-modal-list li {
+    margin: 0;
+}
+
+.share-modal-list svg {
+    fill: #343434;
+    width: 24px;
+    height: 24px;
+    transition: transform 0.2s, fill 0.2s;
+    cursor: pointer;
+}
+
+.share-modal-list svg:hover {
+    fill: #b0b0b0;
+    transform: scale(1.1);
+}
+
+/* Кнопка закрытия */
+.share-modal-close {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #343434;
+}
+
+.share-modal-close:hover {
+    color: #b0b0b0;
+}
+
+.share-title {
+    font-weight: 800;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    margin-bottom: 1.4rem; 
+}
+
+.share-icon-svg {
+    fill: #343434;
+}

@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./css/fonts.css" />
     <link rel="stylesheet" href="./css/bckgrnd.css" />
     <link rel="stylesheet" href="./css/style-media.css" />
+    <link rel="stylesheet" href="./css/modal-share.css" />
     <!-- Встроить favicon -->
     <link rel="icon" href="./favicon.ico" type="image/x-icon" />
     <title>Сергій Жадан - PRJCTR</title>
@@ -206,19 +207,87 @@
             </div>
           </div>
 
-          <!-- Когда буду в теме JS, добавить обработку кнопки "Поделиться"
-          Набросок есть в gemini-->
+          <!-- Кнопка поделиться -->
           <a
             href="#"
-            id="telegramShareButton"
+            id="shareButton"
             class="nav-btn-share"
-            target="_blank"
-            alt="Поделиться в Telegram"
+            aria-label="Поділитися"
           >
             <svg width="18" height="18" class="nav-btn-share-icon">
               <use href="./images/sprite.svg#icon-share"></use>
             </svg>
           </a>
+
+          <!-- Модальное окно "Поделиться" -->
+          <div class="share-modal" data-modal>
+            <div class="share-modal-content">
+              <button class="share-modal-close" data-close>&times;</button>
+              <h3 class="share-title red-color">Поділитися</h3>
+              <ul class="share-modal-list">
+                <li>
+                  <a
+                    href="#"
+                    class="share-link"
+                    data-share="telegram"
+                    aria-label="Telegram"
+                  >
+                    <svg width="24" height="24" class="share-icon-svg">
+                      <use href="./images/sprite.svg#icon-telegram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="share-link"
+                    data-share="viber"
+                    aria-label="Viber"
+                  >
+                    <svg width="24" height="24" class="share-icon-svg">
+                      <use href="./images/sprite.svg#icon-viber"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="share-link"
+                    data-share="facebook"
+                    aria-label="Facebook"
+                  >
+                    <svg width="24" height="24" class="share-icon-svg">
+                      <use href="./images/sprite.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="share-link"
+                    data-share="email"
+                    aria-label="Email"
+                  >
+                    <svg width="24" height="24" class="share-icon-svg">
+                      <use href="./images/sprite.svg#icon-email"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="share-link"
+                    data-share="copy"
+                    aria-label="Скопировать ссылку"
+                  >
+                    <svg width="24" height="24" class="share-icon-svg">
+                      <use href="./images/sprite.svg#icon-copy"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </header>
@@ -606,5 +675,6 @@
     </footer>
 
     <script src="./js/main.js" type="module"></script>
+    <script src="./js/modal-share.js" type="module"></script>
   </body>
 </html>

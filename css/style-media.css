@@ -91,7 +91,7 @@
     }
 
     .blockquote-small-part {
-        fill: #ececec;
+        fill: #f4f4f4;
         position: absolute;
         top: -3.6rem;
         left: 3rem;
@@ -130,5 +130,11 @@
 
     .bckgrnd-icon-letters-ydachi {
         left: 80%;
+    }
+
+    .bckgrnd-icon-glasses {
+        height: 450px;
+        top: 69.5%;
+        left: 20%;
     }
 }

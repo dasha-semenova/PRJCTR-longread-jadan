@@ -45,6 +45,13 @@ Section header - navigation */
 .nav-btn-platforma-icon {
     width: 22px;
     height: 22px;
+
+    transition: transform 0.2s, fill 0.2s;
+}
+
+.nav-btn-platforma-icon:hover,
+.nav-btn-platforma-icon:focus-visible{
+    transform: scale(1.1);
 }
 
 .nav-btn-start-end-wrp {
@@ -62,6 +69,13 @@ Section header - navigation */
     border: none;
     border-radius: 135px;
     width: 100%;
+
+    transition: background-color 0.2s, fill 0.2s;
+}
+
+.nav-btn-start-end:hover,
+.nav-btn-start-end:focus-visible {
+    background-color: #b0b0b0;
 }
 
 .nav-btn-start-end-text {
@@ -88,6 +102,11 @@ Section header - navigation */
     background-color: transparent;
 }
 
+.nav-btn-next-prev:hover .nav-btn-icon,
+.nav-btn-next-prev:focus-visible .nav-btn-icon {
+    fill: #b0b0b0;
+}
+
 .nav-btn-next-prev:disabled,
 .nav-btn-start-end:disabled {
     cursor: not-allowed;
@@ -103,6 +122,7 @@ Section header - navigation */
 
 .nav-btn-icon {
     fill: #343434;
+    transition: fill 0.2s;
 }
 
 .nav-btn-next-prev:disabled .nav-btn-icon {
@@ -122,6 +142,12 @@ Section header - navigation */
 
 .nav-btn-share-icon {
     fill: #343434;
+    transition: transform 0.2s, fill 0.2s;
+}
+
+.nav-btn-share-icon:hover,
+.nav-btn-share-icon:focus-visible{
+    transform: scale(1.1);
 }
 
 /* -------------------------------------
