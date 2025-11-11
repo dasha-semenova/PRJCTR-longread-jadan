@@ -100,6 +100,7 @@ nextButton.addEventListener('click', () => {
         // Если это последний раздел, скроллим к самому низу документа (футеру)
         smoothScrollTo(document.documentElement.scrollHeight);
     }
+    nextButton.blur();
 });
 
 prevButton.addEventListener('click', () => {
@@ -111,14 +112,17 @@ prevButton.addEventListener('click', () => {
         // Если это первый раздел, скроллим к самому верху страницы
         smoothScrollTo(0);
     }
+    prevButton.blur();
 });
 
 startButton.addEventListener('click', () => {
     smoothScrollTo(0); // Скролл к самому верху
+    startButton.blur();
 });
 
 endButton.addEventListener('click', () => {
     smoothScrollTo(document.documentElement.scrollHeight); // Скролл к самому низу
+    endButton.blur();
 });
 
 // --- Инициализация и обработчики событий ---
